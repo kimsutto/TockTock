@@ -21,7 +21,7 @@ Request
     "AccessToken": "7e4615cdfe6c788efb282bfad00e78629bb505ba4bc881867121cb92b5b9d8bd"
   },
   "DrtrRgyn": "Y",
-  "BrdtBrno": "981106",
+  "BrdtBrno": "19981106",
   "Bncd": "011",
   "Acno": "3020000002986"
 }
@@ -50,7 +50,7 @@ Request
     "AccessToken": "7e4615cdfe6c788efb282bfad00e78629bb505ba4bc881867121cb92b5b9d8bd"
   },
   "Rgno": "등록번호",
-  "BrdtBrno": "981106"
+  "BrdtBrno": "19981106"
 }
 
 ```
@@ -77,7 +77,7 @@ Request
     "IsTuno": "00003",
     "AccessToken": "7e4615cdfe6c788efb282bfad00e78629bb505ba4bc881867121cb92b5b9d8bd"
   },
-  "Brdt": "981106",
+  "Brdt": "19981106",
   "Cano": "9411123456782718"
 }  
 
@@ -105,7 +105,7 @@ Request
     "AccessToken": "7e4615cdfe6c788efb282bfad00e78629bb505ba4bc881867121cb92b5b9d8bd"
   },
   "Rgno": "등록번호",
-  "Brdt": "981106"
+  "Brdt": "19981106"
 }
 
 ```
