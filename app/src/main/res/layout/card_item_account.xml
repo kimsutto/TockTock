@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_height="200dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_item_account"
+        android:layout_gravity="center"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardElevation="5dp">
+
+        <TextView
+            android:id ="@+id/account_back"
+            android:layout_width="145dp"
+            android:layout_height="70dp"
+            android:background="#f9d070"
+            android:textColor="@color/white"
+
+        />
+
+        <TextView
+            android:id="@+id/account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17dp"
+            android:text="122일째 진행중 \n99,000원 투자"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/account_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#E63C3C3C"
+            android:text=" 카페에서 \n 10% 금액을 \n 농협계좌에 저축중"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
